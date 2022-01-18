@@ -1,0 +1,16 @@
+/*
+Theme Name: modules_base
+Theme URI: modules_base
+Template: underscore
+Author: Kaven Martineau
+Author URI: http://kavenmartineau.com
+Description:
+Version: 0.1.0
+Text Domain: modules_base
+*/
+
+/* -----------------------------------------------------------------
+    - Development presets
+----------------------------------------------------------------- */
+
+@import 'assets/styles/styles.css';

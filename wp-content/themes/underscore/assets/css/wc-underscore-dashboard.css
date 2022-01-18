@@ -1,0 +1,53 @@
+
+.shop_table.my_account_orders {
+	width: 100%
+}
+
+.shop_table.my_account_orders th {
+	padding-top: 2em;
+}
+.shop_table.my_account_orders th,
+.shop_table.my_account_orders td {
+	vertical-align: middle;
+	padding-bottom: 2em;
+}
+
+.shop_table.my_account_orders th,
+.shop_table.my_account_orders td {
+	font-weight: normal;
+	text-align: left;
+}
+
+.shop_table.my_account_orders thead + tbody tr td,
+.shop_table.my_account_orders tr + tr td {
+	border-top: 1px solid #000;
+	padding-top: 2em;
+}
+
+
+.shop_table .order .order-actions {
+	text-align: right
+}
+
+.address address {
+	margin-bottom: 2rem;
+}
+
+
+.submit-container {
+	margin-top: 4rem
+}
+
+
+.woocommerce [for="account_first_name"],
+.woocommerce [for="account_last_name"] {
+	margin-top: 0;
+}
+
+.login [for="rememberme"] {
+	margin-top: 0
+}
+
+.login .lost_password {
+	margin-top: 4rem
+}

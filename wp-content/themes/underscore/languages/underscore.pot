@@ -1,0 +1,361 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-08-25 19:52+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: _/functions/acf-options.php:4 _/functions/acf-options.php:5
+msgid "Site Options"
+msgstr ""
+
+#: _/functions/acf-options.php:13
+msgid "General Options"
+msgstr ""
+
+#: _/functions/acf-options.php:14 _/functions/acf-options.php:137
+msgid "General"
+msgstr ""
+
+#: _/functions/acf-options.php:21
+msgid "WooCommerce Options"
+msgstr ""
+
+#: _/functions/acf-options.php:22
+msgid "WooCommerce"
+msgstr ""
+
+#: _/functions/acf-options.php:29
+msgid "Development Options"
+msgstr ""
+
+#: _/functions/acf-options.php:30 _/functions/acf-options.php:45
+msgid "Development"
+msgstr ""
+
+#: _/functions/acf-options.php:49
+msgid "Scripts & links"
+msgstr ""
+
+#: _/functions/acf-options.php:54
+msgid "Wordpress Scripts"
+msgstr ""
+
+#: _/functions/acf-options.php:58
+msgid "Disable unused links & scripts"
+msgstr ""
+
+#: _/functions/acf-options.php:59
+msgid "Hide wordpress version"
+msgstr ""
+
+#: _/functions/acf-options.php:60
+msgid "Disable emoji support"
+msgstr ""
+
+#: _/functions/acf-options.php:67
+msgid "Debug mode"
+msgstr ""
+
+#: _/functions/acf-options.php:74
+msgid "Enable Wordpress debug mode"
+msgstr ""
+
+#: _/functions/acf-options.php:109
+msgid "Wordpress admin"
+msgstr ""
+
+#: _/functions/acf-options.php:118
+msgid "Hide admin menus"
+msgstr ""
+
+#: _/functions/acf-options.php:145
+msgid "Display"
+msgstr ""
+
+#: _/functions/helpers.php:227
+msgid "All rights reserved."
+msgstr ""
+
+#: _/functions/helpers.php:247 _/functions/post-type-location.php:208
+msgctxt "Time separator"
+msgid ":"
+msgstr ""
+
+#: _/functions/post-type-block.php:12 _/functions/post-type-block.php:14 
+#: _/functions/post-type-block.php:25
+msgid "Recurring Blocks"
+msgstr ""
+
+#: _/functions/post-type-block.php:13 _/functions/post-type-block.php:15
+msgid "Recurring Block"
+msgstr ""
+
+#: _/functions/post-type-block.php:16
+msgid "Parent Block:"
+msgstr ""
+
+#: _/functions/post-type-block.php:17
+msgid "All Blocks"
+msgstr ""
+
+#: _/functions/post-type-block.php:18
+msgid "Add New Block"
+msgstr ""
+
+#: _/functions/post-type-block.php:19
+msgid "New Block"
+msgstr ""
+
+#: _/functions/post-type-block.php:20
+msgid "Edit Block"
+msgstr ""
+
+#: _/functions/post-type-block.php:21
+msgid "Update Block"
+msgstr ""
+
+#: _/functions/post-type-block.php:22
+msgid "Search Block"
+msgstr ""
+
+#: _/functions/post-type-location.php:4 _/functions/post-type-location.php:6 
+#: _/functions/post-type-location.php:24
+msgid "Locations"
+msgstr ""
+
+#: _/functions/post-type-location.php:5 _/functions/post-type-location.php:7
+msgid "Location"
+msgstr ""
+
+#: _/functions/post-type-location.php:8
+msgid "Parent Location:"
+msgstr ""
+
+#: _/functions/post-type-location.php:9
+msgid "All Locations"
+msgstr ""
+
+#: _/functions/post-type-location.php:10
+msgid "Add New Location"
+msgstr ""
+
+#: _/functions/post-type-location.php:11
+msgid "New Location"
+msgstr ""
+
+#: _/functions/post-type-location.php:12
+msgid "Edit Location"
+msgstr ""
+
+#: _/functions/post-type-location.php:13
+msgid "Update Location"
+msgstr ""
+
+#: _/functions/post-type-location.php:14
+msgid "View Location"
+msgstr ""
+
+#: _/functions/post-type-location.php:15
+msgid "Search Locations"
+msgstr ""
+
+#: _/functions/post-type-location.php:18
+msgid "offices"
+msgstr ""
+
+#: _/functions/post-type-location.php:94 _/functions/post-type-location.php:94
+msgid "Write us"
+msgstr ""
+
+#: _/functions/post-type-location.php:116 
+#: _/functions/post-type-location.php:392
+msgid "Monday"
+msgstr ""
+
+#: _/functions/post-type-location.php:117 
+#: _/functions/post-type-location.php:398
+msgid "Tuesday"
+msgstr ""
+
+#: _/functions/post-type-location.php:118 
+#: _/functions/post-type-location.php:404
+msgid "Wednesday"
+msgstr ""
+
+#: _/functions/post-type-location.php:119 
+#: _/functions/post-type-location.php:410
+msgid "Thursday"
+msgstr ""
+
+#: _/functions/post-type-location.php:120 
+#: _/functions/post-type-location.php:416
+msgid "Friday"
+msgstr ""
+
+#: _/functions/post-type-location.php:121 
+#: _/functions/post-type-location.php:422
+msgid "Saturday"
+msgstr ""
+
+#: _/functions/post-type-location.php:122 
+#: _/functions/post-type-location.php:428
+msgid "Sunday"
+msgstr ""
+
+#: _/functions/post-type-location.php:196 
+#: _/functions/post-type-location.php:212 
+#: _/functions/post-type-location.php:228
+msgid "Closed"
+msgstr ""
+
+#: _/functions/post-type-location.php:251
+msgid "Open"
+msgstr ""
+
+#: _/functions/post-type-location.php:251
+msgid "Close"
+msgstr ""
+
+#: _/functions/post-type-location.php:273
+msgid "Location details"
+msgstr ""
+
+#: _/functions/post-type-location.php:280
+msgid "Particulars"
+msgstr ""
+
+#: _/functions/post-type-location.php:287
+msgid "Postal address"
+msgstr ""
+
+#: _/functions/post-type-location.php:295
+msgid "Street no."
+msgstr ""
+
+#: _/functions/post-type-location.php:302
+msgid "Suite"
+msgstr ""
+
+#: _/functions/post-type-location.php:313 
+#: _/functions/post-type-location.php:474
+msgid "City"
+msgstr ""
+
+#: _/functions/post-type-location.php:320
+msgid "Province/state"
+msgstr ""
+
+#: _/functions/post-type-location.php:330
+msgid "Postal/zip code"
+msgstr ""
+
+#: _/functions/post-type-location.php:337
+msgid "Country"
+msgstr ""
+
+#: _/functions/post-type-location.php:347
+msgid "Contact informations"
+msgstr ""
+
+#: _/functions/post-type-location.php:355
+msgid "Telephone"
+msgstr ""
+
+#: _/functions/post-type-location.php:362
+msgid "Alternative telephone"
+msgstr ""
+
+#: _/functions/post-type-location.php:372
+msgid "Email"
+msgstr ""
+
+#: _/functions/post-type-location.php:384
+msgid "Business hours"
+msgstr ""
+
+#: _/functions/post-type-location.php:438
+msgid "Image gallery"
+msgstr ""
+
+#: _/functions/post-type-location.php:445
+msgid "Select images"
+msgstr ""
+
+#: _/functions/post-type-location.php:457
+msgid "Geolocation"
+msgstr ""
+
+#: _/functions/post-type-location.php:464
+msgid "Map"
+msgstr ""
+
+#: _/functions/post-type-location.php:477
+msgid "Lowercase, without spaces or special characters."
+msgstr ""
+
+#: _/functions/post-type-location.php:482
+msgid "City ID"
+msgstr ""
+
+#: _/functions/post-type-location.php:485
+msgid "Numeric city ID on openWeather.org"
+msgstr ""
+
+#: _/functions/setup.php:110
+msgid "Main navigation"
+msgstr ""
+
+#: _/functions/setup.php:111
+msgid "Footer navigation"
+msgstr ""
+
+#: _/woocommerce/wc-functions.php:28
+msgctxt "categories"
+msgid "All"
+msgstr ""
+
+#: woocommerce/checkout/form-login.php:29
+msgid ""
+"If you have shopped with us before, please fill in your details in the form "
+"below. If you are a new customer please proceed to the Billing &amp; "
+"Shipping section."
+msgstr ""
+
+#: woocommerce/checkout/payment.php:26
+msgid "Payment Method"
+msgstr ""
+
+#: woocommerce/checkout/review-order.php:85
+msgid "Please fill in your details to see available shipping methods."
+msgstr ""
+
+#: woocommerce/global/coupon.php:2
+msgid "Enter your coupon code"
+msgstr ""
+
+#: woocommerce/global/coupon.php:3 woocommerce/global/coupon.php:3
+msgid "Apply code"
+msgstr ""
+
+#. Name of the theme
+msgid "Underscore"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Conçu pour servir de thème parent aux thèmes développés par Kaven Martineau"
+msgstr ""
+
+#. Author of the theme
+msgid "Kaven Martineau"
+msgstr ""

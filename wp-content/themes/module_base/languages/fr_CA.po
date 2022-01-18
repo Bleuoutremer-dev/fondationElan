@@ -1,0 +1,388 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: theme-blank\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-24 15:03+0000\n"
+"PO-Revision-Date: 2016-09-24 15:04+0000\n"
+"Last-Translator: Kaven Martineau <wp@kavenmartineau.com>\n"
+"Language-Team: French (Canada)\n"
+"Language: fr-CA\n"
+"Plural-Forms: nplurals=2; plural=n > 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-KeywordsList: _:1;gettext:1;dgettext:2;ngettext:1,2;dngettext:2,3;"
+"__:1;_e:1;_c:1;_n:1,2;_n_noop:1,2;_nc:1,2;__ngettext:1,2;__ngettext_noop:1,2;"
+"_x:1,2c;_ex:1,2c;_nx:1,2,4c;_nx_noop:1,2,3c;_n_js:1,2;_nx_js:1,2,3c;"
+"esc_attr__:1;esc_html__:1;esc_attr_e:1;esc_html_e:1;esc_attr_x:1,2c;"
+"esc_html_x:1,2c;comments_number_link:2,3;t:1;st:1;trans:1;transChoice:1,2\n"
+"X-Loco-Target-Locale: fr_CA\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#. Name of the template
+msgid "Page modulaire"
+msgstr ""
+
+#. Name of the template
+msgid "Redirection de page"
+msgstr ""
+
+#: app/products/products-post-type.php:93
+msgid "Categories list navigation"
+msgstr ""
+
+#: templates/content/single-product/product-add-to-cart.php:23
+msgid "This product was sold at %s"
+msgstr "Se vendait %s"
+
+#. Theme URI of the theme
+msgid "http://couteauxtheme-blank.ca"
+msgstr ""
+
+#. Author of the theme
+msgid "Kaven Martineau"
+msgstr ""
+
+#. Author URI of the theme
+msgid "http://kavenmartineau.com"
+msgstr ""
+
+#: app/carousel/carousel-post-type.php:12 
+#: app/carousel/carousel-post-type.php:14 
+#: app/carousel/carousel-post-type.php:25
+msgid "Carousels"
+msgstr "Carrousels"
+
+#: app/carousel/carousel-post-type.php:13 
+#: app/carousel/carousel-post-type.php:15
+msgid "Carousel"
+msgstr "Carrousel"
+
+#: app/carousel/carousel-post-type.php:16
+msgid "Parent Carousel:"
+msgstr "Carrousel parent:"
+
+#: app/carousel/carousel-post-type.php:17
+msgid "All Carousels"
+msgstr "Tous les carrousels"
+
+#: app/carousel/carousel-post-type.php:18
+msgid "Add New Carousel"
+msgstr "Ajouter un carrousel"
+
+#: app/carousel/carousel-post-type.php:19
+msgid "New Carousel"
+msgstr "Nouveau carrousel"
+
+#: app/carousel/carousel-post-type.php:20
+msgid "Edit Carousel"
+msgstr "Modifier"
+
+#: app/carousel/carousel-post-type.php:21
+msgid "Update Carousel"
+msgstr "Mettre à jour"
+
+#: app/carousel/carousel-post-type.php:22
+msgid "Search Carousel"
+msgstr "Rechercher"
+
+#: app/products/products-custom-fields.php:28
+msgid "Shop Settings"
+msgstr "Paramètre de la boutique"
+
+#: app/products/products-custom-fields.php:29
+msgid "Shop"
+msgstr "Boutique"
+
+#: app/products/products-post-type.php:13
+msgctxt "Post Type General Name"
+msgid "Products"
+msgstr "Produits"
+
+#: app/products/products-post-type.php:14
+msgctxt "Post Type Singular Name"
+msgid "Product"
+msgstr "Produit"
+
+#: app/products/products-post-type.php:15
+msgid "Products"
+msgstr "Produits"
+
+#: app/products/products-post-type.php:16
+msgid "Product"
+msgstr "Produit"
+
+#: app/products/products-post-type.php:17
+msgid "Product Archives"
+msgstr "Archives des produits"
+
+#: app/products/products-post-type.php:18
+msgid "Parent product:"
+msgstr "Produit parent : "
+
+#: app/products/products-post-type.php:19
+msgid "All Products"
+msgstr "Tous les produits"
+
+#: app/products/products-post-type.php:20
+msgid "Add New Product"
+msgstr "Ajouter un nouveau produit"
+
+#: app/products/products-post-type.php:21
+msgid "Add New"
+msgstr "Ajouter"
+
+#: app/products/products-post-type.php:22
+msgid "New Product"
+msgstr "Nouveau produits"
+
+#: app/products/products-post-type.php:23
+msgid "Edit Product"
+msgstr "Modifier"
+
+#: app/products/products-post-type.php:24
+msgid "Update Product"
+msgstr "Mettre à jour"
+
+#: app/products/products-post-type.php:25
+msgid "View Product"
+msgstr "Voir"
+
+#: app/products/products-post-type.php:26
+msgid "Search Product"
+msgstr "Rechercher un produit"
+
+#: app/products/products-post-type.php:27
+msgid "Not found"
+msgstr "Aucun produit"
+
+#: app/products/products-post-type.php:28
+msgid "Not found in Trash"
+msgstr "Aucun produit dans la corbeille"
+
+#: app/products/products-post-type.php:29
+msgid "Featured Image"
+msgstr "Image à la une"
+
+#: app/products/products-post-type.php:30
+msgid "Set featured image"
+msgstr "Insérer une image en vedette"
+
+#: app/products/products-post-type.php:31
+msgid "Remove featured image"
+msgstr "Enlever l’image en vedette"
+
+#: app/products/products-post-type.php:32
+msgid "Use as featured image"
+msgstr "Utiliser comme image en vedette"
+
+#: app/products/products-post-type.php:33
+msgid "Insert into product"
+msgstr "Insérer dans le produit"
+
+#: app/products/products-post-type.php:34
+msgid "Uploaded to this product"
+msgstr "Téléversées à ce produit"
+
+#: app/products/products-post-type.php:35
+msgid "Products list"
+msgstr "Liste de produits"
+
+#: app/products/products-post-type.php:36
+msgid "Products list navigation"
+msgstr "Navigation de produits"
+
+#: app/products/products-post-type.php:37
+msgid "Filter products list"
+msgstr "Filtrer les produits"
+
+#: app/products/products-post-type.php:47
+msgid "product"
+msgstr "produit"
+
+#: app/products/products-post-type.php:48
+msgid "List all products"
+msgstr "Voir tous les produits"
+
+#: app/products/products-post-type.php:74
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr "Catégories"
+
+#: app/products/products-post-type.php:75
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr "Catégorie"
+
+#: app/products/products-post-type.php:76
+msgid "Category"
+msgstr "Catégorie"
+
+#: app/products/products-post-type.php:77
+msgid "All Categories"
+msgstr "Toutes les catégories"
+
+#: app/products/products-post-type.php:78
+msgid "Parent Category"
+msgstr "Catégorie parente"
+
+#: app/products/products-post-type.php:79
+msgid "Parent Category:"
+msgstr "Catégorie parente :"
+
+#: app/products/products-post-type.php:80
+msgid "New Category Name"
+msgstr "Nom de la nouvelle catégorie"
+
+#: app/products/products-post-type.php:81
+msgid "Add New Category"
+msgstr "Ajouter une nouvelle catégorie"
+
+#: app/products/products-post-type.php:82
+msgid "Edit Category"
+msgstr "Modifier"
+
+#: app/products/products-post-type.php:83
+msgid "Update Category"
+msgstr "Mettre à jour"
+
+#: app/products/products-post-type.php:84
+msgid "View Category"
+msgstr "Voir"
+
+#: app/products/products-post-type.php:85
+msgid "Separate Categories with commas"
+msgstr "Séparer les catégories à l’aide de virgules"
+
+#: app/products/products-post-type.php:86
+msgid "Add or remove Categories"
+msgstr "Ajouter ou supprimer des catégories"
+
+#: app/products/products-post-type.php:87
+msgid "Choose from the most used"
+msgstr "Choisir parmi les termes les plus utilisés"
+
+#: app/products/products-post-type.php:88
+msgid "Popular Categories"
+msgstr "Catégories populaires"
+
+#: app/products/products-post-type.php:89
+msgid "Search Categories"
+msgstr "Rechercher"
+
+#: app/products/products-post-type.php:90
+msgid "Not Found"
+msgstr "Introuvable"
+
+#: app/products/products-post-type.php:91
+msgid "No Categories"
+msgstr "Aucune catégorie"
+
+#: app/products/products-post-type.php:92
+msgid "Categories list"
+msgstr "Liste des catégories"
+
+#: app/products/products-post-type.php:135
+msgctxt "slug"
+msgid "all"
+msgstr "tous"
+
+#: app/shopify/shopify-post-columns.php:14
+msgid "SKU"
+msgstr "SKU"
+
+#: app/shopify/shopify-post-columns.php:15
+msgid "Quantity"
+msgstr "Quantité"
+
+#: app/shopify/shopify-sync-save.php:99
+msgid ""
+"Irks! The product datas were not updated due to a sync issue. Please verify "
+"Shopify API credentials and try again."
+msgstr ""
+"Ish... Les données du produits n'ont pas été mises à jour en raison d'un "
+"problème de synchronisation. Vérifier les informations d'authentification de "
+"Shopify et essayez de nouveau."
+
+#: app/wp-fixes/wp-fixes-admin-ui-functions.php:114
+msgid "Thumbs"
+msgstr "Image"
+
+#: app/wp-fixes/wp-fixes-admin-ui-functions.php:198
+msgid "Site Stats"
+msgstr "Statistiques du site"
+
+#: templates/modules/module-big-image.php:27
+msgid "Read more"
+msgstr "Lire plus"
+
+#: templates/modules/module-random-products.php:2
+msgid "Some products that may interest you"
+msgstr "D’autres produits qui pourraient vous intéresser"
+
+#: templates/content/single-product/product-add-to-cart.php:6
+msgid "Add to cart"
+msgstr "Ajouter au panier"
+
+#: templates/content/single-product/product-type.php:6
+msgid "Product type"
+msgstr "Type de produit"
+
+#: templates/content/single-product/product-weight.php:4
+msgid "grams"
+msgstr "grammes"
+
+#: templates/content/single-product/product-weight.php:11
+msgid "Weight"
+msgstr "Poids"
+
+#: templates/content/single-product/product-weight.php:14
+msgid "ounces"
+msgstr "onces"
+
+#: templates/snippets/general/browse-happy.php:20
+msgid ""
+"Our website need JavaScript to run properly. Please activate it and refresh "
+"your browser."
+msgstr ""
+"Ce site requiert JavaScript pour fonctionner correctement. Veuillez "
+"l’activer puis rafraîchir la fenêtre."
+
+#: templates/snippets/general/browse-happy.php:21
+msgid ""
+"If you have any questions, feel free to contact us at <a href=\"mailto:"
+"%1$s\">%1$s</a>"
+msgstr ""
+"Si vous avez des questions, n’hésitez pas à nous contacter à l’adresse "
+"suivante : <a href=\"mailto:%1$s\">%1$s</a>"
+
+#: templates/snippets/navigations/currency-switcher.php:10
+msgid "Display prices in:"
+msgstr "Afficher les prix en :"
+
+#: templates/snippets/navigations/currency-switcher.php:30
+msgid "Switch to %s"
+msgstr "Changez pour %s"
+
+#: templates/snippets/navigations/facebook-messager-button.php:9
+msgid "Contact form"
+msgstr "Formulaire de contact"
+
+#: templates/snippets/navigations/main-nav.php:9
+msgid "Main navigation"
+msgstr "Navigation principale"
+
+#: templates/snippets/navigations/trigger-currencies.php:12
+msgid "Switch currency"
+msgstr "Changez de devise"
+
+#: templates/snippets/navigations/trigger-navigation.php:7
+msgid "Navigation"
+msgstr "Navigation"
+
+#. Name of the theme
+msgid "theme-blank"
+msgstr "theme-blank"
