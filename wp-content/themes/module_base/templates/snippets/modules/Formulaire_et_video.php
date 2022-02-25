@@ -15,7 +15,7 @@
                     </span>
                 </a>
 
-                <h2 class="alt-font font-weight-600 text-white letter-spacing-minus-2px mb-0">Magalie,<br/> synonyme de joie de vivre</h>
+                <h2 class="alt-font font-weight-600 text-white letter-spacing-minus-2px mb-0">Des témoignages en images qui vont droit au cœur</h2>
             </div>
         </div>
     </div>
@@ -30,7 +30,7 @@
                     <div class="col-12 col-md-6 cover-background sm-h-350px" style="background-image:url('<?= $image_infolettre ?>"></div>
                     <div class="col-12 col-md-6 padding-6-rem-all md-padding-4-rem-all xs-padding-3-half-rem-all">
                         <h5 class="alt-font font-weight-700 text-slate-blue letter-spacing-minus-1px w-95">S’abonner à notre infolettre</h5>
-                        <p class="w-90 lg-w-100">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                        <p class="w-90 lg-w-100">Suivez l’actualité de la Fondation en vous abonnant à l’infolettre</p>
                         <form action="email-templates/contact-form.php" method="post" class="margin-15px-top d-inline-block w-100">
                             <input class="bg-light-gray border-radius-4px border-0 medium-input margin-20px-bottom required" type="text" name="name" placeholder="Votre nom" />
                             <input class="bg-light-gray border-radius-4px border-0 medium-input margin-20px-bottom required" type="email" name="email" placeholder="Votre courriel" />

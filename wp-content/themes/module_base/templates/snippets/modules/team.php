@@ -1,13 +1,14 @@
-<section class="equipe big-section border-bottom border-color-extra-light-gray" style="background-color:<?= $bg_colorequipe ?>">
+<section class="equipe big-section" style="background-color:<?= $bg_colorequipe ?>">
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-12 text-center margin-six-bottom">
                 <div class="w-70 text-center" style="margin:auto">
-                    <h3 class="alt-font text-extra-dark-gray font-weight-500">Conseil d’administration</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur
-                        ipisicing elit, sed do eiusmod Conseil
-                    Lorem ipsum dolor sit amet, consectetur
-                        ipisicing elit, sed do eiusmod</p>
+                    <?php if ($categorie ): ?>
+                    <h3 class="alt-font text-extra-dark-gray font-weight-500"><?= $categorie ?></h3>
+                    <?php endif ?>
+                    <?php if ($Bloc_texte_categorie ): ?>
+                        <div><?= $Bloc_texte_categorie ?></div>
+                    <?php endif ?>
                 </div>
             </div>
         <div class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center">
@@ -19,7 +20,9 @@
                   if( get_row_layout() == 'team' ): 
                     // check for rows (sub repeater)
                   if( have_rows('blocequipe') ): ?>
+                    
                     <?php while( have_rows('blocequipe') ): the_row(); ?>
+                        <?php $mail = get_sub_field('adresse_courriel'); ?>
                     <div class="col team-style-01 text-center md-margin-30px-bottom xs-margin-15px-bottom">
                         <figure class="border-radius-5px">
                             <div class="team-member-image">
@@ -30,9 +33,10 @@
                                 <span class="team-title d-block alt-font text-white"><?php the_sub_field('euipe_titre'); ?></span>
                                 <span class="team-sub-title text-small d-block text-white text-uppercase"><?php the_sub_field('euipe_nom'); ?></span>
                                 <div class="social-icon w-100 position-absolute bottom-30px left-0px">
-                                    <a href="https://www.facebook.com/" target="_blank" class="text-white"><i class="fab fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com" target="_blank" class="text-white"><i class="fab fa-instagram"></i></a>
-                                    <a href="https://twitter.com/" target="_blank" class="text-white"><i class="fab fa-twitter"></i></a>
+
+                                    <?php if ($mail ): ?>
+                                    <a href="mailto:<?php the_sub_field('adresse_courriel'); ?>"class="text-white"><i aria-hidden="true" class="far fa-envelope"></i></a>
+                                    <?php endif ?>
                                 </div>
                             </figcaption>
                         </figure>

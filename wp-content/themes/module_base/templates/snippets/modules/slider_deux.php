@@ -8,7 +8,7 @@
                 <?php if ($image_background_un  ): ?>
                     <li data-index="rs-73" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://works.themepunch.com/revolution_5_3/wp-content/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="<?= $image_background_un ?>" alt="<?= $image_alt_un ?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" style="position: relative; top:-100px;">
+                        <img src="<?= $image_background_un ?>" alt="<?= $image_alt_un ?>" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" style="position: relative; top:-100px;">
                         <!-- LAYERS -->
                         <div class="bullebleu tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-10"
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
@@ -31,7 +31,7 @@
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
                              data-width="100%"
-                             data-height="600"
+                             data-height="500"
                              data-whitespace="nowrap"
                              data-type="shape" 
                              data-responsive_offset="on" 
@@ -112,7 +112,7 @@
                     <?php if ($image_background_deux ): ?>
                     <li data-index="rs-74" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://works.themepunch.com/revolution_5_3/wp-content/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="<?= $image_background_deux ?>" alt="<?= $image_alt_deux ?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                        <img src="<?= $image_background_deux ?>" alt="<?= $image_alt_deux ?>" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div class="bullebleu tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-10"
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
@@ -135,7 +135,7 @@
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
                              data-width="100%"
-                             data-height="600"
+                             data-height="500"
                              data-whitespace="nowrap"
                              data-type="shape" 
                              data-responsive_offset="on" 
@@ -216,7 +216,7 @@
                     <?php if ($image_background_trois ): ?>
                     <li data-index="rs-75" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://works.themepunch.com/revolution_5_3/wp-content/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="<?= $image_background_trois ?>" alt="<?= $image_alt_trois ?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                        <img src="<?= $image_background_trois ?>" alt="<?= $image_alt_trois ?>" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div class="bullebleu tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-10"
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
@@ -239,7 +239,7 @@
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
                              data-width="100%"
-                             data-height="600"
+                             data-height="500"
                              data-whitespace="nowrap"
                              data-type="shape" 
                              data-responsive_offset="on" 
@@ -320,7 +320,7 @@
                     <?php if ($image_background_quatre ): ?>
                     <li data-index="rs-76" data-transition="fade" data-slotamount="default" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="300"  data-thumb="http://works.themepunch.com/revolution_5_3/wp-content/"  data-rotate="0"  data-saveperformance="off"  data-title="Slide" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="<?= $image_background_quatre ?>" alt="<?= $image_alt_quatre ?>" data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
+                        <img src="<?= $image_background_quatre ?>" alt="<?= $image_alt_quatre ?>" data-bgposition="top center" data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
                         <div class="bullebleu tp-caption tp-shape tp-shapewrapper  tp-resizeme rs-parallaxlevel-10"
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
@@ -343,7 +343,7 @@
                              data-x="['left','left','left','left']" data-hoffset="['0','0','0','0']" 
                              data-y="['middle','bottom','bottom','bottom']" data-voffset="['0','0','0','0']"
                              data-width="100%"
-                             data-height="600"
+                             data-height="500"
                              data-whitespace="nowrap"
                              data-type="shape" 
                              data-responsive_offset="on" 
