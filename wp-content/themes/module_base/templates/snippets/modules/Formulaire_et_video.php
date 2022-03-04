@@ -4,12 +4,12 @@
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-12 col-xl-12 col-lg-12 col-sm-12 position-relative text-center overlap-gap-section xs-margin-40px-tb wow animate__zoomIn" data-wow-delay="0.3s">
-                <a href="https://www.youtube.com/watch?v=g0f_BRYJLJE" class="popup-youtube video-icon-box video-icon-large position-relative d-inline-block margin-3-half-rem-bottom">
+                <a href="<?= $lienurl_video ?>" class="popup-youtube video-icon-box video-icon-large position-relative d-inline-block margin-3-half-rem-bottom">
                     <span>
-                        <span class="video-icon bg-neon-orange">
+                        <span class="video-icon" style="border: solid 1px #ffffff">
                             <i class="icon-simple-line-control-play text-white"></i>
                             <span class="video-icon-sonar">
-                                <span class="video-icon-sonar-afr bg-neon-orange"></span>
+                                <span class="video-icon-sonar-afr " style="background-color: #ffffff50"></span>
                             </span>
                         </span>
                     </span>
@@ -25,7 +25,7 @@
 <section class="bg-light-gray overflow-visible marginnegform">
     <div class="container">
         <div class="row justify-content-center xs-no-margin-lr" >
-            <div class="col-12 col-xl-12 col-lg-12 position-relative bg-white box-shadow-extra-large border-radius-6px overflow-hidden overlap-section-three-fourth wow animate__fadeIn" style="border-radius:20px;" data-wow-delay="0.3s">
+            <div class="col-12 col-xl-12 col-lg-12 position-relative bg-white box-shadow-extra-large border-radius-6px overflow-hidden o wow animate__fadeIn" style="border-radius:20px;" data-wow-delay="0.3s">
                 <div class="row">
                     <div class="col-12 col-md-6 cover-background sm-h-350px" style="background-image:url('<?= $image_infolettre ?>"></div>
                     <div class="col-12 col-md-6 padding-6-rem-all md-padding-4-rem-all xs-padding-3-half-rem-all">

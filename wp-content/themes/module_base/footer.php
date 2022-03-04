@@ -1,6 +1,6 @@
 
         <footer class="footer-dark bg-slate-blue">
-            <div class="footer-top padding-four-tb lg-padding-eight-tb md-padding-50px-tb">
+            <div class="footer-top padding-six-tb lg-padding-eight-tb md-padding-50px-tb">
                 <div class="container">
                     <div class="row">
                         <!-- start footer column -->
@@ -8,16 +8,17 @@
                         <!-- end footer column -->
                         <!-- start footer column -->
                         <div class="col-12 col-lg-2  col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
-                            <span class="alt-font font-weight-600 d-block text-white margin-10px-bottom xs-margin-10px-bottom">LA fondation</span>
+                            <a href="<?php echo site_url(); ?>/fondation"><span class="alt-font font-weight-600 d-block text-white margin-10px-bottom xs-margin-10px-bottom">LA fondation</span></a>
                         </div>
                         <div class="col-12 col-lg-2  col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
-                            <span class="alt-font font-weight-500 d-block text-white  xs-margin-10px-bottom">Activités et<br/>événements</span>
+                            <a href="<?php echo site_url(); ?>/actualites">
+                            <span class="alt-font font-weight-500 d-block text-white  xs-margin-10px-bottom">Activités et<br/>événements</span></a>
                         </div>
  
                         <!-- end footer column -->
                         <!-- start footer column -->
                         <div class="col-12 col-lg-2 col-sm-5   order-sm-4 order-lg-0 xs-margin-25px-bottom">
-                            <span class="relative aftercoeur alt-font font-weight-600 d-block text-white  xs-margin-10px-bottom">Faire<br/>un don</span>
+                            <a href="https://www.jedonneenligne.org/fondationelan/DONS/"><span class="relative aftercoeur alt-font font-weight-600 d-block text-white  xs-margin-10px-bottom">Faire<br/>un don</span></a>
                         </div>
                         <div class="col-12 col-lg-2 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom">
                             <span class="alt-font font-weight-500 d-block text-white  xs-margin-10px-bottom">Coordonnées</span>
@@ -27,7 +28,9 @@
                         <!-- start footer column -->
                         <div class="col-12  col-lg-4 col-sm-6 order-sm-3 order-lg-0">                       
                             <span style="opacity:0"class="alt-font font-weight-600 d-block text-white xs-margin-10px-bottom">Coordonnées </span>
-                            <p>Téléphone : 418 529-9141, poste 4366<br/>Télécopieur : 418 266-5751<br/>fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca</p>
+                            <p>
+                            <a href="tel:4185299141" style="color: #a3a4a6;">Téléphone : 418 529-9141, poste 4366<br/>Télécopieur : 418 266-5751</a>
+                            <a style="color: #a3a4a6;" href="mailto:fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca">fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca</a></p>
                             <p>Numéro de bienfaisance: 12345678901234567890</p>
   
                         </div>

@@ -8,6 +8,7 @@ get_header(); ?>
   <div id="content" role="main">
 
     <?php the_post(); ?>
+   
     <h1 class="entry-title"><?php the_title(); ?></h1>
 
     <h2>Archives by Month:</h2>

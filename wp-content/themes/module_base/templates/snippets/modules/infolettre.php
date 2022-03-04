@@ -1,7 +1,7 @@
 <section class="bg-green overflow-visible marginnegform"style="margin-top:0px !important">
     <div class="container">
         <div class="row justify-content-center xs-no-margin-lr" >
-            <div class="col-12 col-xl-12 col-lg-12 position-relative bg-white box-shadow-extra-large border-radius-6px overflow-hidden overlap-section-three-fourth wow animate__fadeIn" style="border-radius:20px;" data-wow-delay="0.3s">
+            <div class="col-12 col-xl-12 col-lg-12 position-relative bg-white box-shadow-extra-large border-radius-6px overflow-hidden wow animate__fadeIn" style="border-radius:20px;" data-wow-delay="0.3s">
                 <div class="row">
                     <div class="col-12 col-md-6 cover-background sm-h-350px" style="background-image:url('<?= $image_infolettredeux ?>"></div>
                     <div class="col-12 col-md-6 padding-6-rem-all md-padding-4-rem-all xs-padding-3-half-rem-all">

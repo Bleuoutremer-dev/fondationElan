@@ -16,8 +16,8 @@
                                       if( have_rows('bloccarousel') ): ?>
                                         <?php while( have_rows('bloccarousel') ): the_row(); ?>
                                     <div class="swiper-slide padding-15px-all">
-                                        <div class="h-100 bg-white box-shadow position-relative">
-                                            <img src="<?php the_sub_field('image_defilante'); ?>" alt="<?php the_sub_field('altimagecarousel'); ?>" style="width:100%;">
+                                        <div class="h-100 carousel-border bg-white box-shadow position-relative">
+                                            <img class="img_caroussel" src="<?php the_sub_field('image_defilante'); ?>" alt="<?php the_sub_field('altimagecarousel'); ?>" style="width:100%;">
                                             <div class="padding-4-half-rem-lr padding-3-half-rem-tb feature-box feature-box-left-icon-middle last-paragraph-no-margin lg-padding-2-half-rem-lr sm-padding-4-rem-lr xs-padding-2-rem-all">
             
                                                 <div class="feature-box-content  lg-padding-35px-left xs-padding-15px-left">

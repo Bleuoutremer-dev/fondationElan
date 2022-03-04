@@ -27,7 +27,7 @@
                         <figure class="border-radius-5px">
                             <div class="team-member-image">
                                 <img alt="<?php the_sub_field('altequipe'); ?>" src="<?php the_sub_field('image_portrait'); ?>">
-                                <div class="team-overlay bg-transparent-gradient-shamrock-green-light-orange border-radius-5px"></div>
+                                <div class="team-overlay bg-transparent-light-red border-radius-5px"></div>
                             </div>
                             <figcaption class="align-items-center justify-content-center d-flex flex-column padding-20px-lr padding-30px-tb">
                                 <span class="team-title d-block alt-font text-white"><?php the_sub_field('euipe_titre'); ?></span>

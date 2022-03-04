@@ -27,7 +27,7 @@
 </head>
 
 
-<body data-mobile-nav-style="classic" class=" <?php body_class() ?>"  id="<?php echo sanitize_title_with_dashes(get_the_title(get_the_ID())); ?>">
+<body data-mobile-nav-style="classic" <?php body_class(); ?>  id="<?php echo sanitize_title_with_dashes(get_the_title(get_the_ID())); ?>">
 
          <!-- start header -->
          <header>
@@ -51,11 +51,11 @@
                          <div class="collapse navbar-collapse" id="navbarNav">
                              <ul class="navbar-nav alt-font">
                                  <li class="nav-item dropdown megamenu">
-                                     <a href="<?php echo site_url(); ?>" class="nav-link">Actualités</a>
+                                     <a href="<?php echo site_url(); ?>/actualites" class="nav-link">Actualités</a>
                                      
                                  </li>
                                  <li class="nav-item dropdown megamenu">
-                                     <a href="<?php echo site_url(); ?>/simpliquer" class="nav-link">S'impliquer</a>
+                                     <a href="<?php echo site_url(); ?>/donner" class="nav-link">S'impliquer</a>
                                      
                                  </li>
                                  <li class="nav-item dropdown megamenu">
@@ -100,8 +100,12 @@
              <!-- end navigation -->
           <div class="hamburger-menu hamburger-menu-half bg-white lg-w-60 md-w-60 sm-w-100">
                 <a href="javascript:void(0);" class="close-menu text-extra-dark-gray"><i class="fas fa-times"></i></a>
-                <div class="d-flex flex-column align-items-center justify-content-center h-100 padding-6-rem-all md-padding-2-rem-lr xs-no-padding-lr">
-                    <a href="index.html" class="d-none d-lg-inline-block"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Group84.svg" alt="" class="md-w-160px" /></a>
+                <div class="d-flex flex-column align-items-center justify-content-center h-100 padding-4-rem-all md-padding-2-rem-lr xs-no-padding-lr">
+                 
+                    <a href="<?php echo site_url(); ?>" class="logo_petale d-none d-lg-inline-block">
+
+                        <img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Group84.svg" alt="" class="md-w-160px" /></a>
+                       
                     <div class="menu-list-wrapper w-75 lg-w-80 md-w-75 sm-w-60 xs-w-100 position-relative padding-15px-lr margin-3-rem-tb" data-scroll-options='{ "theme": "dark" }'>
                         <!-- start menu -->
                         <ul class="menu-list dark alt-font w-70 xl-w-100 margin-auto-lr">
@@ -129,7 +133,7 @@
                                 <a href="<?php echo site_url(); ?>/nos-realisations">Nos réalisations</a>
                             </li>
                             <li class="menu-list-item">
-                                <a href="">Actualités</a>
+                                <a href="<?php echo site_url(); ?>/actualites">Actualités</a>
                             </li>
                             <li class="menu-list-item">
                                 <a href="javascript:void(0);">S'impliquer</a><span class="menu-toggle"></span>
@@ -160,11 +164,12 @@
                         </ul>
                         <!-- end menu -->
                     </div>
-                    <div class="text-center elements-social social-icon-style-07 d-none d-md-inline-block">
-                        <ul class="small-icon dark">
-                            <li><a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                    <div class="social-icon-style-04 text-left margin-25px-top">
+                        <ul class="medium-icon dark">
+                            <li>
+                                <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f "></i></a><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
                             
-                            <li><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></li>
+                    
                             
                         </ul>
                     </div>

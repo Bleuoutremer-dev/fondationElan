@@ -23,13 +23,16 @@
                     <!-- end accordion item -->
                 </div>
             </div>
-            <div class="col-12 col-lg-6 offset-lg-1 home-yoga-meditation wow animate__fadeIn" data-wow-delay="0.4s">
+            <div class="col-12 col-lg-6 offset-lg-1 home-yoga-medimage_videoitation wow animate__fadeIn" data-wow-delay="0.4s">
                 <div class="outside-box-right position-relative">
-                    <img src="https://via.placeholder.com/1000x715" class="overflow-hidden border-radius-4px" alt="" />
-                    <a href="https://www.youtube.com/watch?v=g0f_BRYJLJE" class="popup-youtube absolute-middle-center video-icon-box video-icon-extra-large left-0px wow animate__fadeIn" data-wow-delay="0.2s">
+                    <img src="<?= $image_video ?>" class="overflow-hidden border-radius-4px" alt="pettite fille" />
+                    <a href="<?= $url_video ?>" class="popup-youtube absolute-middle-center video-icon-box video-icon-extra-large left-0px wow animate__fadeIn" data-wow-delay="0.2s">
                         <span>
                             <span class="video-icon bg-white box-shadow-large">
-                                <i class="fas fa-play text-salmon-rose"></i>
+                                <i class="fas fa-play text-purple"></i>
+                                <span class="video-icon-sonar">
+                                    <span class="video-icon-sonar-afr " style="background-color: #A76DB1"></span>
+                                </span>
                             </span>
                         </span>
                     </a>

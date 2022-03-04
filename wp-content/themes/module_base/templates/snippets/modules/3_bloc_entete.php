@@ -5,7 +5,7 @@
                 <div class="row justify-content-center">
                     <div class="col-12 col-lg-4 col-md-6 col-sm-8 md-margin-30px-bottom xs-margin-15px-bottom">
                         <!-- start feature box item-->
-                        <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small box-shadow-large-hover border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
+                        <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
                             <div class="feature-box-icon margin-30px-right lg-margin-25px-right">
                                 <img src="<?= $image_icone_un ?>" class="icon-medium text-green">
                             </div>
@@ -18,7 +18,7 @@
                     </div>
                     <div class="col-12 col-lg-4 col-md-6 col-sm-8 md-margin-30px-bottom xs-margin-15px-bottom">
                         <!-- start feature box item-->
-                        <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small box-shadow-large-hover border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
+                        <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
                             <div class="feature-box-icon margin-30px-right lg-margin-25px-right">
                                 <img src="<?= $image_icone_deux ?>" class="icon-medium text-green">
                             </div>
@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-12 col-lg-4 col-md-6 col-sm-8">
                         <!-- start feature box item-->
-                        <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small box-shadow-large-hover border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
+                        <div class="feature-box h-100 feature-box-left-icon-middle padding-3-rem-all bg-white box-shadow-small border-radius-4px overflow-hidden last-paragraph-no-margin lg-padding-2-half-rem-tb lg-padding-2-rem-lr md-padding-4-rem-all">
                             <div class="feature-box-icon margin-30px-right lg-margin-25px-right">
                                 <img src="<?= $image_icone_trois ?>" class="icon-medium text-green">
                             </div>

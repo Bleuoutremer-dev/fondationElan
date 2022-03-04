@@ -10,7 +10,7 @@
                 </div>
                     </div>
                 <div class="swiper-simple-arrow-style-1">
-                    <div class="swiper-container black-move" data-slider-options='{ "loop": true, "slidesPerView": 1, "spaceBetween": 0, "observer": true, "observeParents": true, "keyboard": { "enabled": true, "onlyInViewport": true }, "autoplay": { "delay": 3000, "disableOnInteraction": false }, "effect": "slide" }'>
+                    <div class="swiper-container black-move" data-slider-options='{ "loop": true, "slidesPerView": 1, "spaceBetween": 0, "observer": true, "observeParents": true, "keyboard": { "enabled": true, "onlyInViewport": true }, "autoplay": { "delay": 8000, "disableOnInteraction": false }, "effect": "slide" }'>
                         <div class="swiper-wrapper">
   
                             <!-- start testimonial item -->
@@ -39,7 +39,7 @@
                                                         <p class="w-85 lg-w-100">
                                                             <?php the_sub_field('Bloc_texte_carousel'); ?></p>
                                                         <div class="text-extra-dark-gray alt-font text-uppercase font-weight-600"><span><?php the_sub_field('carouselnom'); ?></span></div>
-                                                        <span class="alt-font"><?php the_sub_field('carouseltitre'); ?></span>
+                                                        <a href="<?php the_sub_field('carouseltitre'); ?>" class="alt-font">Lire la suite...</span></a>
                                                     </div>
                                                 </div>
                                             </div>
