@@ -30,12 +30,13 @@ get_header();
 		                	        </span>
 		                	    </div>
 		                	</div>
-		                    <h3 class="alt-font font-weight-500 letter-spacing-minus-1px text-extra-dark-gray "><?php the_title(); ?></h3>
-		                    <span class="alt-font text-black d-block padding-60px-top"><span class="time"><?php the_time('j'); ?> </span><?php the_time('F Y'); ?></span>
+		                    <h4 class="alt-font font-weight-500 letter-spacing-minus-1px text-extra-dark-gray "><?php the_title(); ?></h4>
+		                    
 		                </div>
 		            </div>
 		            <div class="col-12 col-lg-6 px-0 order-1 align-self-end md-margin-60px-bottom">
-		                <img class="overlap-image border-radius-8px md-no-margin-bottom" src="<?php echo get_the_post_thumbnail(); ?>" alt="" />
+		            	<div class=" overlap-image border-radius-8px md-no-margin-bottom"><?php echo get_the_post_thumbnail(); ?></div>
+		            	</div>
 		   
 		  
 		        </div>
@@ -44,10 +45,10 @@ get_header();
 		<!-- end banner section -->
 		<!-- start section -->
 	
-		<section class="padding-70px-top sm-padding-50px-top position-relative sectionfulllargeur">
+		<section class="padding-70px-top sm-padding-50px-top position-relative sectionfulllargeur bg-white">
 		    <div class="container">
 		        <div class="row justify-content-end">
-		            <div class="col-12 col-xl-5 col-lg-6 last-paragraph-no-margin padding-3-half-rem-left md-padding-15px-left">
+		            <div class="bg-white col-12 col-xl-12 col-lg-12 last-paragraph-no-margin wow animate__fadeIn">
 		            	<?php the_content(); ?>
 		            </div>
 		        </div>
@@ -56,14 +57,14 @@ get_header();
 	
 		<!-- end section -->
 		<!-- start section -->
-		<section class="pt-0  lg-no-margin-top">
-		    <div class="container">
+		<section class="pt-0 bg-white lg-no-margin-top">
+		    <div class="container ">
 		    	
-		        <div class="row justify-content-center">
+		        <div class="row justify-content-end">
 		        	<?php if(get_field('contenu_pleine_largeur')): ?>
 		        	    <div class="col-12 lg-5 offset-lg-1"> 
 		        	        <div class="row">
-		        	            <div class="col-12 last-paragraph-no-margin wow animate__fadeIn">
+		        	            <div class="col-12 bg-white last-paragraph-no-margin">
 		        	                <h6 class="alt-font text-extra-dark-gray font-weight-500 margin-20px-bottom"><?php echo the_field('titre_pleine_largeur'); ?></h6>
 		        	                <p><?php echo the_field('contenu_pleine_largeur'); ?></p>
 		        	            </div>
@@ -186,8 +187,8 @@ get_header();
 
 		                    <li class="grid-item fashion wow animate__fadeIn" data-wow-delay="0.6s">
 		                        <div class="blog-post border-radius-6px bg-white box-shadow box-shadow-large-hover">
-		                        	<a href="<?php echo the_permalink(); ?>" class="date alt-font text-uppercase text-extra-small letter-spacing-1px d-block padding-30px-lr padding-15px-tb xl-padding-25px-lr text-black" style="font-size:12px;"><span class="time"><?php the_time('j'); ?> </span><?php the_time('F Y'); ?></span></a>
-		                            <div class="blog-post-image bg-gradient-fast-blue-purple">
+		                        	<a href="<?php echo the_permalink(); ?>" class="date alt-font text-uppercase text-extra-small letter-spacing-1px d-block padding-30px-lr padding-15px-tb xl-padding-25px-lr text-black" style="font-size:12px;"></a>
+		                            <div class="blog-post-image bg-gradient-black-transparent">
 
 		                               <a href="<?php echo the_permalink(); ?>">
 
@@ -222,7 +223,7 @@ get_header();
 		        </div>
 		    </div>
 		    <div class="text-center">
-		    <a class="text-enter btn btn-extra-large btn-transparent-black btn-rounded d-table d-lg-inline-block md-margin-auto-lr" style="border-color: #707070; color: #707070; background-color: transparent; margin-top: 50px;" href="" target="_blank" rel="noopener"><strong>Voir toutes les actualités</strong></a>
+		    <a class="text-enter btn btn-extra-large btn-transparent-black btn-rounded d-table d-lg-inline-block md-margin-auto-lr" style="border-color: #707070; color: #707070; background-color: transparent; margin-top: 50px;" href="<?php echo site_url(); ?>/actualites"  rel="noopener"><strong>Voir toutes les actualités</strong></a>
 		    </div>
 		</section>
 

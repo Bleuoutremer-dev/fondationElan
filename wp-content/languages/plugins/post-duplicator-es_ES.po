@@ -1,39 +1,127 @@
-# Translation of Plugins - Post Duplicator - Development (trunk) in Spanish (Spain)
-# This file is distributed under the same license as the Plugins - Post Duplicator - Development (trunk) package.
+# Translation of Plugins - Post Duplicator - Stable (latest release) in Spanish (Spain)
+# This file is distributed under the same license as the Plugins - Post Duplicator - Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2018-07-21 17:07:37+0000\n"
+"PO-Revision-Date: 2022-01-01 07:55:32+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: GlotPress/2.4.0-alpha\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: es\n"
-"Project-Id-Version: Plugins - Post Duplicator - Development (trunk)\n"
+"Project-Id-Version: Plugins - Post Duplicator - Stable (latest release)\n"
 
-#: includes/settings.php:63
-msgid "String that should be appended to the duplicate post's title"
-msgstr "Cadena que debe añadirse al título de la entrada duplicada"
+#: metaboxer/metaboxer.php:25
+msgid " "
+msgstr " "
 
-#: includes/settings.php:62
-msgid "Duplicate Title"
-msgstr "Duplicar Título"
+#: includes/settings.php:232
+msgid "Customize the settings for duplicated posts."
+msgstr "Personaliza los ajustes para las entradas duplicadas."
 
-#: includes/functions.php:18 includes/settings.php:66
-msgid "Copy"
-msgstr "Copia"
+#: includes/settings.php:208
+msgid "Post Duplicator Settings"
+msgstr "Ajustes de Post Duplicator"
 
-#: includes/settings.php:71
+#: includes/settings.php:138
+msgid "older"
+msgstr "anteriores"
+
+#: includes/settings.php:137
+msgid "newer"
+msgstr "siguientes"
+
+#: includes/settings.php:130
+msgid " seconds"
+msgstr " segundos"
+
+#: includes/settings.php:123
+msgid " minutes"
+msgstr " minutos"
+
+#: includes/settings.php:116
+msgid " hours"
+msgstr " horas"
+
+#: includes/settings.php:109
+msgid " days"
+msgstr " días"
+
+#: includes/settings.php:102
+msgid "Offset Date"
+msgstr "Desfase de fecha"
+
+#: includes/settings.php:95
 msgid "String that should be appended to the duplicate post's slug"
 msgstr "Cadena que debe añadirse al slug de la entrada duplicada"
 
-#: includes/settings.php:70
+#: includes/settings.php:94
 msgid "Duplicate Slug"
-msgstr "Duplicar Slug"
+msgstr "Duplicar el slug"
 
-#: includes/settings.php:44
+#: includes/settings.php:87
+msgid "String that should be appended to the duplicate post's title"
+msgstr "Cadena que debe añadirse al título de la entrada duplicada"
+
+#: includes/settings.php:86
+msgid "Duplicate Title"
+msgstr "Duplicar el título"
+
+#: includes/settings.php:79
+msgid "Current Time"
+msgstr "Hora actual"
+
+#: includes/settings.php:78
+msgid "Duplicate Timestamp"
+msgstr "Duplicar fecha y hora"
+
+#: includes/settings.php:75
+msgid "Post Date"
+msgstr "Fecha de la entrada"
+
+#: includes/settings.php:68
 msgid "Post Type"
-msgstr "Tipo del Post"
+msgstr "Tipo de contenido"
+
+#: includes/settings.php:62
+msgid "Pending"
+msgstr "Pendiente"
+
+#: includes/settings.php:61
+msgid "Published"
+msgstr "Publicada"
+
+#: includes/settings.php:60
+msgid "Draft"
+msgstr "Borrador"
+
+#: includes/settings.php:56
+msgid "Post Status"
+msgstr "Estado de la entrada"
+
+#: includes/settings.php:49
+msgid "Original Post Author"
+msgstr "Autor original de la entrada"
+
+#: includes/settings.php:48
+msgid "Current User"
+msgstr "Usuario actual"
+
+#: includes/settings.php:45
+msgid "Post Author"
+msgstr "Autor de la entrada"
+
+#: includes/settings.php:38
+msgid "Limit to Current User"
+msgstr "Limitar al usuario actual"
+
+#: includes/settings.php:37
+msgid "Allow Duplication of All Users"
+msgstr "Permitir duplicar a todos los usuarios"
+
+#: includes/settings.php:34
+msgid "Post Duplication"
+msgstr "Duplicar entradas"
 
 #: includes/notices.php:21
 msgid "Successfully Duplicated! You can edit your new %1$s %2$s."
@@ -41,98 +129,37 @@ msgstr "¡Duplicada correctamente! Puedes editar tu nueva %1$s %2$s."
 
 #: includes/notices.php:20
 msgid "here"
-msgstr "aqui"
+msgstr "aquí"
 
-#: includes/edit.php:22
-msgid "Duplicate %1$s to %2$s"
-msgstr "Duplicar %1$s a %2$s"
-
-#. Author URI of the plugin/theme
-msgid "http://www.metaphorcreations.com"
-msgstr "http://www.metaphorcreations.com"
-
-#. Author of the plugin/theme
-msgid "Metaphor Creations"
-msgstr "Metaphor Creations"
-
-#. Description of the plugin/theme
-msgid "Creates functionality to duplicate any and all post types, including taxonomies & custom fields"
-msgstr "Añade funcionalidades para duplicar cada uno de los tipos de entradas, incluyendo taxonomías y campos personalizados."
-
-#. #-#-#-#-#  tmp-post-duplicator.pot (Post Duplicator 2.20)  #-#-#-#-#
-#. Plugin Name of the plugin/theme
-#: includes/settings.php:12 includes/settings.php:13
-msgid "Post Duplicator"
-msgstr "Post Duplicator"
-
-#: includes/settings.php:183
-msgid "Customize the settings for duplicated posts."
-msgstr "Personaliza los ajustes para las entradas duplicadas."
-
-#: includes/settings.php:159
-msgid "Post Duplicator Settings"
-msgstr "Ajustes de Post Duplicator"
-
-#: includes/settings.php:113
-msgid "older"
-msgstr "anteriores"
-
-#: includes/settings.php:112
-msgid "newer"
-msgstr "siguientes"
-
-#: includes/settings.php:105
-msgid " seconds"
-msgstr "segundos"
-
-#: includes/settings.php:98
-msgid " minutes"
-msgstr "minutos"
-
-#: includes/settings.php:91
-msgid " hours"
-msgstr "horas"
-
-#: includes/settings.php:84
-msgid " days"
-msgstr "días"
-
-#: includes/settings.php:78
-msgid "Offset Date"
-msgstr "Desfase de fecha"
-
-#: includes/settings.php:55
-msgid "Current Time"
-msgstr "Hora actual"
-
-#: includes/settings.php:54
-msgid "Duplicate Timestamp"
-msgstr "Duplicar fecha y hora"
-
-#: includes/settings.php:51
-msgid "Post Date"
-msgstr "Fecha de entrada"
-
-#: includes/settings.php:38
-msgid "Pending"
-msgstr "Pendiente"
-
-#: includes/settings.php:37
-msgid "Published"
-msgstr "Publicado"
-
-#: includes/settings.php:36
-msgid "Draft"
-msgstr "Borrador"
-
-#: includes/helpers.php:10 includes/settings.php:35
+#: includes/helpers.php:10 includes/settings.php:59
 msgid "Same as original"
 msgstr "Igual que el original"
 
-#: includes/settings.php:32
-msgid "Post Status"
-msgstr "Estado de Entrada"
+#: includes/ajax.php:19 includes/functions.php:20 includes/settings.php:90
+msgid "Copy"
+msgstr "Copiar"
 
-#: includes/edit.php:16 includes/functions.php:42
+#: includes/edit.php:33
+msgid "Duplicate %1$s to %2$s"
+msgstr "Duplicar %1$s a %2$s"
+
+#: includes/edit.php:27 includes/functions.php:50
 msgid "Duplicate %s"
 msgstr "Duplicar %s"
+
+#. Author URI of the plugin
+msgid "http://www.metaphorcreations.com"
+msgstr "https://www.metaphorcreations.com"
+
+#. Author of the plugin
+msgid "Metaphor Creations"
+msgstr "Metaphor Creations"
+
+#. Description of the plugin
+msgid "Creates functionality to duplicate any and all post types, including taxonomies & custom fields"
+msgstr "Crea una funcionalidad para duplicar todos y cada uno de los tipos de contenido, incluyendo taxonomías y campos personalizados"
+
+#. Plugin Name of the plugin
+#: includes/settings.php:12 includes/settings.php:13
+msgid "Post Duplicator"
+msgstr "Post Duplicator"

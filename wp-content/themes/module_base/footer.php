@@ -8,7 +8,7 @@
                         <!-- end footer column -->
                         <!-- start footer column -->
                         <div class="col-12 col-lg-2  col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
-                            <a href="<?php echo site_url(); ?>/fondation"><span class="alt-font font-weight-600 d-block text-white margin-10px-bottom xs-margin-10px-bottom">LA fondation</span></a>
+                            <a href="<?php echo site_url(); ?>/fondation"><span class="alt-font font-weight-600 d-block text-white margin-10px-bottom xs-margin-10px-bottom">La Fondation</span></a>
                         </div>
                         <div class="col-12 col-lg-2  col-sm-5 order-sm-2 order-lg-0 md-margin-40px-bottom xs-margin-25px-bottom">
                             <a href="<?php echo site_url(); ?>/actualites">
@@ -17,21 +17,20 @@
  
                         <!-- end footer column -->
                         <!-- start footer column -->
-                        <div class="col-12 col-lg-2 col-sm-5   order-sm-4 order-lg-0 xs-margin-25px-bottom">
-                            <a href="https://www.jedonneenligne.org/fondationelan/DONS/"><span class="relative aftercoeur alt-font font-weight-600 d-block text-white  xs-margin-10px-bottom">Faire<br/>un don</span></a>
+                        <div class="col-12 col-lg-3 col-sm-5   order-sm-4 order-lg-0 xs-margin-25px-bottom">
+                            <a href="<?php echo site_url(); ?>/faire-un-don/" target="_blank"><span class="relative aftercoeur alt-font font-weight-600 d-block text-white  xs-margin-10px-bottom">Faire<br/>un don</span></a>
                         </div>
-                        <div class="col-12 col-lg-2 col-sm-6 order-sm-1 order-lg-0 last-paragraph-no-margin md-margin-40px-bottom xs-margin-25px-bottom">
-                            <span class="alt-font font-weight-500 d-block text-white  xs-margin-10px-bottom">Coordonnées</span>
-                            <p>2975, chemin&nbsp;Saint-Louis, local B-110<br/> Québec Qc G1W 1P9</p>
-                        </div>
+
                         <!-- end footer column -->                    
                         <!-- start footer column -->
-                        <div class="col-12  col-lg-4 col-sm-6 order-sm-3 order-lg-0">                       
-                            <span style="opacity:0"class="alt-font font-weight-600 d-block text-white xs-margin-10px-bottom">Coordonnées </span>
-                            <p>
-                            <a href="tel:4185299141" style="color: #a3a4a6;">Téléphone : 418 529-9141, poste 4366<br/>Télécopieur : 418 266-5751</a>
-                            <a style="color: #a3a4a6;" href="mailto:fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca">fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca</a></p>
-                            <p>Numéro de bienfaisance: 12345678901234567890</p>
+                        <div class="col-12  col-lg-5 col-sm-12 order-sm-3 order-lg-0">
+                        <span class="alt-font font-weight-500 d-block text-white  xs-margin-10px-bottom">Coordonnées</span>
+                        <p>2975, chemin&nbsp;Saint-Louis, local B-110</br>Québec Qc G1W 1P9</p>                      
+            
+                           
+                            <a href="tel:4185299141" style="color: #a3a4a6;">Téléphone : 418 529-9141, poste 4366<br/>Télécopieur : 418 266-5751</a><br/>
+                            <a style="color: #a3a4a6;" href="mailto:fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca">fondationelan.irdpq.ciussscn@ssss.gouv.qc.ca</a>
+                            <p>Numéro de bienfaisance: 11892 0867 RR0001</p>
   
                         </div>
                         <!-- end footer column -->
@@ -40,24 +39,31 @@
             </div>
             <div class="footer-bottom padding-35px-tb border-top border-width-1px border-color-white-transparent">
                 <div class="container"> 
-                    <div class="row align-items-center">
-                        <div class="col-12 col-md-2 text-center text-md-start sm-margin-20px-bottom">
+                    <div class="row align-items-end">
+                        <div class="footerlogo col-lg-3 col-12 col-md-3 text-center text-md-start sm-margin-20px-bottom">
                             <a href="/" class="footer-logo"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Group87.svg" data-at2x="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Group87.svg" alt=""></a>
                         </div>
-                        <div class="col-12 col-md-2  text-center text-md-start sm-margin-20px-bottom">
+                        <div class="footerlogo col-lg-2 col-12 col-md-2  text-center text-md-start sm-margin-20px-bottom">
                             <a href="/" class="footer-logo"><img src="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Group149.svg" data-at2x="<?php echo get_stylesheet_directory_uri() ?>/assets/images/Group149.svg" alt=""></a>
                         </div>
-                        <div class="col-12 col-md-4  text-center text-md-start sm-margin-20px-bottom">
+                        <div class="col-lg-2 col-12 col-md-1  text-center text-md-start sm-margin-20px-bottom">
 
                         </div>
 
-                        <div class="col-12 col-md-4 text-center ">
+                        <div class="col-lg-5 col-12 col-md-5 text-center ">
                             <span class="alt-font font-weight-600 text-left d-block text-white margin-10px-bottom xs-margin-10px-bottom">Infolettre</span>
                             <div class="newsletter-style-03 position-relative w-100 mx-auto mx-md-0 mx-lg-auto xs-w-95">
 
-                                <form action="email-templates/subscribe-newsletter.php" method="post">
-                                    <input type="email" name="email" placeholder="Entrer votre adresse" class="small-inputborder-color-dark-white-transparent m-0 bg-transparent required">
-                                    <input type="hidden" name="redirect" value="">
+                                <form action="https://app.cyberimpact.com/optin" method="post" accept-charset="utf-8">
+                                    <input type="email" id="ci_email" name="ci_email" maxlength="255" placeholder="Entrer votre adresse" class="small-inputborder-color-dark-white-transparent m-0 bg-transparent required">
+                                    <div style="display:block; visibility:hidden; height:1px;">
+                                        <input type="hidden" id="ci_groups" name="ci_groups" value="95"/>
+                                        <input type="hidden" id="ci_account" name="ci_account" value="e79c6e84-5b34-4cc8-9b8e-cf2269d56a49"/>
+                                        <input type="hidden" id="ci_language" name="ci_language" value="fr_ca"/>
+                                        <input type="hidden" id="ci_sent_url" name="ci_sent_url" value=""/>
+                                        <input type="hidden" id="ci_error_url" name="ci_error_url" value="" />
+                                        <input type="hidden" id="ci_confirm_url" name="ci_confirm_url" value="" />
+                                    </div>
                                     <button class="btn submit dark" type="submit"><i class="feather icon-feather-mail text-white icon-extra-small m-0"></i></button>
                                     <div class="form-results position-absolute d-none"></div>
                                 </form>
@@ -65,7 +71,7 @@
                             <div class="social-icon-style-04 text-left margin-25px-top">
                                 <ul class="medium-icon light">
                                     <li><h5 class="text-white font-weight-600">Suivez-nous
-                                        <a class="facebook" href="https://www.facebook.com/" target="_blank"><i class="fab fa-facebook-f"></i></a><a class="twitter" href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i></a></h5></li>
+                                        <a class="facebook" href="https://www.facebook.com/FondationElan/" target="_blank"><i class="fab fa-facebook-f"></i></a><a class="twitter" href="https://twitter.com/FondationElan" target="_blank"><i class="fab fa-twitter"></i></a></h5></li>
                                     
                      
                                     
@@ -198,6 +204,8 @@ var revapi263,
     }
     ; /* END OF ON LOAD FUNCTION */
 }()); /* END OF WRAPPING FUNCTION */
+/* Validation Events for changing response CSS classes */
+
         </script>
 
 </body>

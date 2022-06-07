@@ -1,7 +1,7 @@
-<section class=" deuximagestextes overflow-visible bg-white wow animate__fadeIn margin-bottom50" style="background-color: <?= $couleur_defond ?> !important" >
+<section class=" deuximagestextes overflow-visible bg-white margin-bottom50" style="background-color: <?= $couleur_defond ?> !important" >
     <div class=" <?= $espacement_section ?> container margin-bottom50">
         <div class="row align-items-center justify-content-center <?= $row_reverse ?>">
-            <div style="padding-left:120px" class="col-12 col-lg-7 col-md-10 position-relative margin-20px-bottom md-margin-8-rem-bottom sm-margin-10-rem-bottom wow animate__fadeIn" data-wow-delay="0.2s">
+            <div class=" pdl120 col-12 col-lg-7 col-md-10 position-relative margin-20px-bottom md-margin-8-rem-bottom sm-margin-10-rem-bottom wow animate__fadeIn" data-wow-delay="0.2s">
                 <div class="imagecarredetail w-70 margin-4-rem-bottom sm-no-margin-bottom">
                     <span class="un"><?= $Grostitreun ?></span>
                     <span class="deux"><?= $Grostitredeux ?></span>
